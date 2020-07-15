@@ -4,7 +4,7 @@ training="True" if # if you wanna to visualize only, turn False   training will 
 pb_gen="True" # generating ckpt -> pb whitch is the input for the visualizations
 save_checkpoints="True" # if True: save ckpt file after "every" epoch False: save only the first and last ckpt file
 visualize_all_steps="True" # if save_checkpoints are true, or previously runned, it 'll visualize each neuron in "layer_neuron_list" after "every" epoch where checkpoint were saved
-visualize_only_the_last_epoch="False" # visualize neurons from " layer_neuron_list" from the pb file generated at the last epoch
+visualize_only_first_and_last_epoch="False" # visualize neurons from " layer_neuron_list" from the pb file generated at the last epoch
 
 
 nb_epoch=10
@@ -99,7 +99,7 @@ do
 
 
 
-    elif [ $visualize_only_the_last_epoch == "True" ]
+    elif [ $visualize_only_first_and_last_epoch == "True" ]
     then
         for neuron_index in $(echo $neuron_list | sed "s/,/ /g")
         do
