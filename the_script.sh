@@ -1,6 +1,6 @@
 #!/bin/bash
 
-training="True" if # if you wanna to visualize only, turn False   training will generate a file, names saved_epochs_list.txt, epoch's number is listed here if there were ckpt saving. At the begging of the training we save more ckpt, and as time goes, less and less ckpt is saved
+training="True" # if you wanna to visualize only, turn False   training will generate a file, names saved_epochs_list.txt, epoch's number is listed here if there were ckpt saving. At the begging of the training we save more ckpt, and as time goes, less and less ckpt is saved
 pb_gen="True" # generating ckpt -> pb whitch is the input for the visualizations
 save_checkpoints="True" # if True: save ckpt file after "every" epoch False: save only the first and last ckpt file
 visualize_all_steps="True" # if save_checkpoints are true, or previously runned, it 'll visualize each neuron in "layer_neuron_list" after "every" epoch where checkpoint were saved
