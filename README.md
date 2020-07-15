@@ -20,7 +20,7 @@
 **parameter setup:** <br/>
 *training="True" <br/>
 *pb_gen="True" <br/>
-*save_checkpoints="True"   (this way you can create temporal visualizations later, turn off if you don't) <br/>
+*save_checkpoints="True"   (this way you can create temporal visualizations later, turn off if you don't want to) <br/>
 *visualize_all_steps="False" <br/>
 *visualize_only_first_and_last_epoch="True" <br/>
 *input="neuron_list_for_neuron_catalog.txt" <br/>
