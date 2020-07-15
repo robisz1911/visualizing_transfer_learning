@@ -16,7 +16,7 @@ top_node="dense_1/Sigmoid" #dense_1/Sigmoid if dataset=celeba | dense_1/Softmax 
 do_save_model="True"
 do_load_model="False"
 input="layers_neuron_list.txt" # neurons listed here 'll be visualized
-working_directory=test_celeba # pb files and images 'll be saved in the folder
+working_directory=test_celeba # images 'll be saved in this folder
 
 
 ##### TRAINING #####
