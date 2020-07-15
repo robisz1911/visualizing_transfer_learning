@@ -17,32 +17,32 @@
 
 # Generating neuron catalog for the whole network(before/after pairs for every channels):
 
-**parameter setup:**
-*training="True"
-*pb_gen="True"
-*save_checkpoints="True"   (this way you can create temporal visualizations later, turn off if you don't)
-*visualize_all_steps="False"
-*visualize_only_first_and_last_epoch="True"
-*input="neuron_list_for_neuron_catalog.txt"
+**parameter setup:** <br/>
+*training="True" <br/>
+*pb_gen="True" <br/>
+*save_checkpoints="True"   (this way you can create temporal visualizations later, turn off if you don't) <br/>
+*visualize_all_steps="False" <br/>
+*visualize_only_first_and_last_epoch="True" <br/>
+*input="neuron_list_for_neuron_catalog.txt" <br/>
 
 # Generating temporal visualizations for the listed objects:
 
-**parameter setup:**
-*training="True"
-*pb_gen="True"
-*save_checkpoints="True"
-*visualize_all_steps="True"
-*visualize_only_first_and_last_epoch="False"
+**parameter setup:** <br/>
+*training="True" <br/>
+*pb_gen="True" <br/>
+*save_checkpoints="True" <br/>
+*visualize_all_steps="True" <br/>
+*visualize_only_first_and_last_epoch="False" <br/>
 *input="layers_neuron_list.txt"    (list the objects here, in the same format)
 
 # Training only:
 
-**parameter setup:**
-*training="True"
-*pb_gen="True"               (creating pb files which is the input for the visualizations, you can do it anytime later before visualizations)
-*save_checkpoints="True"     (this way you can create temporal visualizations later, turn off if you don't)
-*visualize_all_steps="False"
-*visualize_only_first_and_last_epoch="False"
+**parameter setup:** <br/>
+*training="True" <br/>
+*pb_gen="True"               (creating pb files which is the input for the visualizations, you can do it anytime later before visualizations) <br/>
+*save_checkpoints="True"     (this way you can create temporal visualizations later, turn off if you don't) <br/>
+*visualize_all_steps="False" <br/>
+*visualize_only_first_and_last_epoch="False" <br/>
 
-**the order is: training->pb_generation->visualization**
+**the order is: training->pb_generation->visualization** <br/>
 **if you have a training already, with generated pb files, set training and pb_gen to "False"**
