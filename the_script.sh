@@ -104,7 +104,7 @@ do
         for neuron_index in $(echo $neuron_list | sed "s/,/ /g")
         do
             python vis_neuron.py --MODEL_PATH=0.pb --LAYER=$layer --NEURON_INDEX=$neuron_index
-            python vis_neuron.py --MODEL_PATH=80.pb --LAYER=$layer --NEURON_INDEX=$neuron_index
+            python vis_neuron.py --MODEL_PATH=$nb_epoch.pb --LAYER=$layer --NEURON_INDEX=$neuron_index
             echo "merge.py-start"
             python merge.py --column=1 --name=merged_steps${layer////-}$neuron_index
             mv merged_steps${layer////-}$neuron_index.png $working_directory/
