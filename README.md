@@ -9,4 +9,7 @@ set the correct parameters in the_script.sh, check comments there for more under
 celeba dataset : https://github.com/robisz1911/celeba_dataset
 
 
-animals dataset : https://github.com/robisz1911/LUCID_RESULTS/tree/master/DATASETS/animals
+animals dataset : https://github.com/robisz1911/LUCID_RESULTS/DATASETS/animals
+
+
+flowers17 dataset : https://github.com/robisz1911/LUCID_RESULTS/DATASETS/flowers17
