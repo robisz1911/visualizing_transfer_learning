@@ -1,1 +1,1 @@
-Mixed_5c_Branch_1_b_3x3_act/Relu 0
+Mixed_5c_Branch_1_b_3x3_act/Relu 0,1,2,3,4,5
